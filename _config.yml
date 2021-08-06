@@ -30,10 +30,10 @@ haccerrank_username: mharikmert
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,10 +48,61 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Mahmut Hilmi and I'm a Computer Science and Engineering Student at Marmara University. 
-  I'm also Junior Software Developer at <a target = "_blank" href = "https://www.sadeyazilim.com"> Sade Software & Consultancy </a>
+  I'm a 4th grade Computer Science and Engineering Student at Marmara University. I love to learn and develop algorithms and software. 
+  I like to follow new software technologies, methodologies and innovations. I am interested in full-stack development with modern tools and languages. Besides, 
+  I'm also a Software Developer at <a target = "_blank" href = "https://www.sadeyazilim.com"> Sade Software & Consultancy </a>
 
 content:
+  - title: Professional Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Sade Software & Consultancy 
+        link: sadeyazilim.com
+        # link_text: boringcompany.com
+        sub_title: Software Developer  
+        caption: May 2021 - Present
+        quote: >
+          Providing enterprise application development, data quality and integration solutions in various sectors like finance, telecommunication, banking, public energy and insurance.
+        # description: | # this will include new lines to allow paragraphs
+    content:
+      - layout: left
+        title: Civil A.S 
+        link: civilim.com
+        # link_text: boringcompany.com
+        sub_title: Sofware Development Intern (Informal intern) 
+        caption: Aug 2020 - Nov 2020
+        quote: >
+          Civil is one of the most known clothing companies in the babies and kids category in Turkey.
+        description: | # this will include new lines to allow paragraphs
+          * Working closely with SQL Server and Microsoft Azure technologies.
+          * Development of a Rest API that checks the HES code over the web service. API is used in some company stores' entries.
+          * Experience of developing software with Java-Spring Boot and MySQL technologies.
+    content:
+      - layout: left
+        title: Civil A.S 
+        link: civilim.com
+        # link_text: boringcompany.com
+        sub_title: Web Development Intern (Informal intern)  
+        caption: Jul 2019 - Dec 2019 
+        # quote: >
+        description: 
+          * Working closely with front-end technologies such as HTML, CSS and JavaScript.
+          * Contribution to web projects, delivery of tasks which are given with the business requirements.
+        # description: | # this will include new lines to allow paragraphs
+     
+  -title: Professional Skills
+    content: 
+      #### Programming Languages / Technologies 
+      <mark> Spring Boot </mark> <mark> Spring Security </mark> <mark> JPA </mark> <mark> Hibernate </mark> <mark> JavaScript </mark> <mark> TypeScript </mark> <mark> Angular </mark> <mark> React </mark>  
+      #### Data Technologies 
+      <mark> MySQL </mark> <mark> PostgreSQL </mark> <mark> Microsoft SQL Server </mark>  
+      #### Server / OS Technologies 
+      <mark> Linux (Ubuntu) </mark> <mark> Docker </mark>
+      #### Development Tools 
+      <mark> Intellij Idea </mark> VS Code <mark> Vim </mark> <mark> Git </mark> <mark> Github </mark><mark> SOAP UI </mark> <mark> PostMan </mark> <mark> Swagger </mark> <mark> Trello </mark>  
+      #### Other Skills / Interests 
+      <mark>Object Oriented Programming </mark> <mark> Design Patterns </mark> <mark> Clean Code </mark> <mark> Software Craftsmanship</mark> <mark> Test Driven Development </mark> 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -67,24 +118,11 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is my first high scaled app, I love to develop this project. 
+          This is my first highly scaled app, I love to develop this project. 
         description: | # this will include new lines to allow paragraphs
           This is an information system about students' lectures, schedules, absence etc. JavaScript and JQuery for front-end with Spring MVC, Spring Boot for back-end, MySQL for DB.
           
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Sade Software & Consultancy 
-        link: sadeyazilim.com
-        # link_text: boringcompany.com
-        sub_title: Software Developer  
-        caption: May 2021 - Present
-        quote: >
-          Providing enterprise application development, data quality and integration solutions in various sectors like finance, telecommunication, banking, public energy and insurance.
-        # description: | # this will include new lines to allow paragraphs
-          
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
