@@ -11,7 +11,7 @@ title: Software Developer
 email: mharikmert@gmail.com
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 twitter_username: iamhillme
@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
   I like to follow new software technologies, methodologies and innovations. I am interested in full-stack development with modern tools and languages. Besides, 
   I'm also a Software Developer at <a target = "_blank" href = "https://www.sadeyazilim.com"> Sade Software & Consultancy </a>
 
-content:
+content: 
   - title: Professional Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -64,8 +64,6 @@ content:
         caption: May 2021 - Present
         quote: >
           Providing enterprise application development, data quality and integration solutions in various sectors like finance, telecommunication, banking, public energy and insurance.
-        # description: | # this will include new lines to allow paragraphs
-    content:
       - layout: left
         title: Civil A.S 
         link: civilim.com
@@ -78,37 +76,23 @@ content:
           * Working closely with SQL Server and Microsoft Azure technologies.
           * Development of a Rest API that checks the HES code over the web service. API is used in some company stores' entries.
           * Experience of developing software with Java-Spring Boot and MySQL technologies.
-    content:
-      - layout: left
+      - layout: left 
         title: Civil A.S 
         link: civilim.com
         # link_text: boringcompany.com
         sub_title: Web Development Intern (Informal intern)  
         caption: Jul 2019 - Dec 2019 
-        # quote: >
-        description: 
-          * Working closely with front-end technologies such as HTML, CSS and JavaScript.
-          * Contribution to web projects, delivery of tasks which are given with the business requirements.
-        # description: | # this will include new lines to allow paragraphs
-     
-  -title: Professional Skills
-    content: 
-      #### Programming Languages / Technologies 
-      <mark> Spring Boot </mark> <mark> Spring Security </mark> <mark> JPA </mark> <mark> Hibernate </mark> <mark> JavaScript </mark> <mark> TypeScript </mark> <mark> Angular </mark> <mark> React </mark>  
-      #### Data Technologies 
-      <mark> MySQL </mark> <mark> PostgreSQL </mark> <mark> Microsoft SQL Server </mark>  
-      #### Server / OS Technologies 
-      <mark> Linux (Ubuntu) </mark> <mark> Docker </mark>
-      #### Development Tools 
-      <mark> Intellij Idea </mark> VS Code <mark> Vim </mark> <mark> Git </mark> <mark> Github </mark><mark> SOAP UI </mark> <mark> PostMan </mark> <mark> Swagger </mark> <mark> Trello </mark>  
-      #### Other Skills / Interests 
-      <mark>Object Oriented Programming </mark> <mark> Design Patterns </mark> <mark> Clean Code </mark> <mark> Software Craftsmanship</mark> <mark> Test Driven Development </mark> 
+          # quote: >
+        description: | 
+          - Working closely with front-end technologies such as HTML, CSS and JavaScript.
+          - Contribution to web projects, delivery of tasks which are given with the business requirements.
+  
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: Fikirtepe Student Information System
-        link: github.com/fikirtepe-student-information-system
+        link: github.com/mharikmert/fikirtepe-student-information-system
         # link_text: Project Website
         # additional_links:
         #   - title:  sproogen/modern-resume-theme
@@ -121,6 +105,56 @@ content:
           This is my first highly scaled app, I love to develop this project. 
         description: | # this will include new lines to allow paragraphs
           This is an information system about students' lectures, schedules, absence etc. JavaScript and JQuery for front-end with Spring MVC, Spring Boot for back-end, MySQL for DB.
+        
+      - layout: top-middle
+        title: Data Labeling System
+        link: github.com/mharikmert/data-labeling-system
+        description: 
+          It is an open source data processing and labeling project developed with Java and Maven technologies. The focus of this project is object oriented manner and design patterns. The main goal of this project is to read and process data sets which are JSON format and produce an output and user metrics similarly.    
+
+  - title: Professional Skills # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        description: | # this will include new lines to allow paragraphs
+          #### Programming Languages / Technologies 
+          <mark> Java </mark> &nbsp; 
+          <mark> Spring Boot </mark> &nbsp;
+          <mark> Spring Security </mark> &nbsp;
+          <mark> JPA </mark> &nbsp;
+          <mark> Hibernate </mark> &nbsp;
+          <mark> JavaScript </mark> &nbsp;
+          <mark> TypeScript </mark> &nbsp;
+          <mark> Angular </mark> &nbsp;
+          <mark> React </mark>  &nbsp;
+
+          #### Data Technologies 
+          <mark> MySQL </mark> &nbsp; 
+          <mark> PostgreSQL </mark> &nbsp; 
+          <mark> Microsoft SQL Server </mark>   &nbsp;
+
+          #### Server / OS Technologies 
+          <mark> Linux (Ubuntu) </mark> &nbsp;
+          <mark> Docker </mark>
+          
+          #### Development Tools 
+          <mark> Intellij Idea </mark> &nbsp;
+          <mark> VS Code </mark> &nbsp;
+          <mark> Vim </mark> &nbsp;
+          <mark> Git </mark> &nbsp;
+          <mark> Github </mark>&nbsp;
+          <mark> SOAP UI </mark>&nbsp; 
+          <mark> PostMan </mark> &nbsp;
+          <mark> Swagger </mark>&nbsp; 
+          <mark> Trello </mark>&nbsp;  
+          
+          #### Other Skills / Interests 
+          <mark> Object Oriented Programming </mark> &nbsp;
+          <mark> Design Patterns </mark> &nbsp;
+          <mark> Clean Code </mark> &nbsp;
+          <mark> Software Craftsmanship </mark> &nbsp;
+          <mark> Test Driven Development </mark>&nbsp; 
+
           
 
 
@@ -132,7 +166,7 @@ content:
         caption: 2017 - 2022
         sub_title: BSc Computer Science
         quote: >
-          Established in 1883, Marmara is one of the oldest higher education institution in Turkey, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in Turkey.
+          Established in 1883, Marmara is one of the oldest education institution in Turkey, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in Turkey.
         # description: | # this will include new lines to allow paragraphs
         #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
