@@ -21,8 +21,8 @@ github_username:  mharikmert
 # facebook_username: jekyll
 # flickr_username: jekyll
 instagram_username: iamhillme
-linkedin_username: mhilmiarikmert
-haccerrank_username: mharikmert
+linkedin_username: mahmut-hilmi-arıkmert-3b0741187
+hackerrank_username: mharikmert
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -87,31 +87,18 @@ content:
           - Working closely with front-end technologies such as HTML, CSS and JavaScript.
           - Contribution to web projects, delivery of tasks which are given with the business requirements.
   
-  - title: Projects # Title for the section
+  - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Fikirtepe Student Information System
-        link: github.com/mharikmert/fikirtepe-student-information-system
-        # link_text: Project Website
-        # additional_links:
-        #   - title:  sproogen/modern-resume-theme
-        #     icon: fab fa-github
-        #     url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+      - layout: left
+        title: Marmara University
+        caption: 2017 - 2022
+        sub_title: BSc Computer Science & Engineering
         quote: >
-          This is my first highly scaled app, I love to develop this project. 
-        description: | # this will include new lines to allow paragraphs
-          This is an information system about students' lectures, schedules, absence etc. JavaScript and JQuery for front-end with Spring MVC, Spring Boot for back-end, MySQL for DB.
-        
-      - layout: top-middle
-        title: Data Labeling System
-        link: github.com/mharikmert/data-labeling-system
-        description: 
-          It is an open source data processing and labeling project developed with Java and Maven technologies. The focus of this project is object oriented manner and design patterns. The main goal of this project is to read and process data sets which are JSON format and produce an output and user metrics similarly.    
-
+          Established in 1883, Marmara is one of the oldest education institution in Turkey, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in Turkey.
+        # description: | # this will include new lines to allow paragraphs
+        #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+  
   - title: Professional Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -158,19 +145,33 @@ content:
           
 
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Marmara University
-        caption: 2017 - 2022
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1883, Marmara is one of the oldest education institution in Turkey, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in Turkey.
-        # description: | # this will include new lines to allow paragraphs
-        #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
         #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Fikirtepe Student Information System
+        link: github.com/mharikmert/fikirtepe-student-information-system
+        # link_text: Project Website
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is my first highly scaled app, I love to develop this project. 
+        description: | # this will include new lines to allow paragraphs
+          This is an information system about students' lectures, schedules, absence etc. JavaScript and JQuery for front-end with Spring MVC, Spring Boot for back-end, MySQL for DB.
+        
+      - layout: top-middle
+        title: Data Labeling System
+        link: github.com/mharikmert/data-labeling-system
+        description: 
+          It is an open source data processing and labeling project developed with Java and Maven technologies. The focus of this project is object oriented manner and design patterns. The main goal of this project is to read and process data sets which are JSON format and produce an output and user metrics similarly.    
 
   - title: A Little More About Me
     layout: text
