@@ -48,9 +48,7 @@ hackerrank_username: mharikmert
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a 4th grade Computer Science and Engineering Student at Marmara University. I love to learn and develop algorithms and software. 
-  I like to follow new software technologies, methodologies and innovations. I am interested in full-stack development with modern tools and languages. Besides, 
-  I'm also a Software Developer at <a target = "_blank" href = "https://www.sadeyazilim.com"> Sade Software & Consultancy </a>
+  I'm a 4th grade Computer Science and Engineering Student at Marmara University in Turkey. I'm passionate about full-stack software development with modern tools and languages. I enjoy being challenged and engaging with projects that require me to work outside of my comfort zone and knowledge set.  Besides, I'm also a Software Developer at <a target = "_blank" href = "https://www.sadeyazilim.com"> Sade Software & Consultancy </a>
 
 content: 
   - title: Professional Experience # Title for the section
