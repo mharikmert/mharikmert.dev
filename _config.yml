@@ -11,7 +11,7 @@ title: Software Developer
 email: mharikmert@gmail.com
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: true
 
 # Social links
 twitter_username: iamhillme
@@ -60,10 +60,16 @@ content:
         title: Sade Software & Consultancy 
         link: sadeyazilim.com
         # link_text: boringcompany.com
-        sub_title: Software Developer  
+        sub_title: Assistant Software Developer  
         caption: May 2021 - Present
         quote: >
           Providing enterprise application development, data quality and integration solutions in various sectors like finance, telecommunication, banking, public energy and insurance.
+        description: |
+          * Professional SAS Programming education
+          * Working on technical topics such as RESTful web services, Client-Server Architecture, Authentication(JWT), Authorization (Keycloak) during summer internship.  
+          * Development of an API that uses Keycloak as an authorization layer with Spring Boot & Spring Security.
+          * Taking an active role in the migration and deployment process of a static masking system's user interface (Angular) on Red Hat Linux servers.
+          * Delivery of frontend tasks on a financial reporting system user interface (Angular)    
       - layout: left
         title: Civil A.S 
         link: civilim.com
@@ -152,7 +158,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Fikirtepe Student Information System
+        title: Fikirtepe Student Information System (Live Soon..) 
         link: github.com/mharikmert/fikirtepe-student-information-system
         # link_text: Project Website
         # additional_links:
@@ -163,9 +169,11 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is my first highly scaled app, I love to develop this project. 
+          This is my first large scale app, I love to develop this project. 
         description: | # this will include new lines to allow paragraphs
-          This is an information system about students' lectures, schedules, absence etc. JavaScript and JQuery for front-end with Spring MVC, Spring Boot for back-end, MySQL for DB.
+          It is an information system about students' lectures, schedules, absences, etc. Angular for frontend, Spring Boot-Spring Security for backend, MySQL-JPA-Hibernate for DB.
+          <br> <br>
+          <img src="images/login_ss.png"> 
         
       - layout: top-middle
         title: Data Labeling System
