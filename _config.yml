@@ -58,38 +58,29 @@ content:
         title: Sade Software & Consultancy 
         link: sadeyazilim.com
         # link_text: boringcompany.com
-        sub_title: Assistant Software Developer  
+        sub_title: Software Developer  
         caption: May 2021 - Present
         quote: >
           Providing enterprise application development, data quality and integration solutions in various sectors like finance, telecommunication, banking, public energy and insurance.
         description: |
           * Professional SAS Programming education
-          * Working on technical topics such as RESTful web services, Client-Server Architecture, Authentication(JWT), Authorization (Keycloak) during summer internship.  
-          * Development of an API that uses Keycloak as an authorization layer with Spring Boot & Spring Security.
-          * Taking an active role in the migration and deployment process of a static masking system's user interface (Angular) on Red Hat Linux servers.
+          * Working on technical topics such as RESTful web services, Client-Server Architecture, Authentication(JWT), Authorization (Keycloak) during the summer internship.  
+          * Development of an API using Keycloak as the authorization layer with Spring Boot & Spring Security.
+          * Taking an active role in migrating and deploying of a static masking system's user interface (Angular) on Red Hat Linux servers.
           * Delivery of frontend tasks on a financial reporting system user interface (Angular)    
+          * Designed and implemented employee activity monitoring and notification system using Kimai's API (Kotlin)
       - layout: left
         title: Civil A.S 
         link: civilim.com
         # link_text: boringcompany.com
-        sub_title: Sofware Development Intern (Informal intern) 
-        caption: Aug 2020 - Nov 2020
+        sub_title: Sofware Development Intern 
+        caption: Aug 2020 - Nov 2020 ( 4 months ) 
         quote: >
           Civil is one of the most known clothing companies in the babies and kids category in Turkey.
         description: | # this will include new lines to allow paragraphs
           * Working closely with SQL Server and Microsoft Azure technologies.
-          * Development of a Rest API that checks the HES code over the web service. API is used in some company stores' entries.
-          * Experience of developing software with Java-Spring Boot and MySQL technologies.
-      - layout: left 
-        title: Civil A.S 
-        link: civilim.com
-        # link_text: boringcompany.com
-        sub_title: Web Development Intern (Informal intern)  
-        caption: Jul 2019 - Dec 2019 
-          # quote: >
-        description: | 
-          - Working closely with front-end technologies such as HTML, CSS and JavaScript.
-          - Contribution to web projects, delivery of tasks which are given with the business requirements.
+          * Development of an API that controls the HES code via the web service of the Ministry of Health.
+          * Software development experience with Java-Spring Boot and MySQL technologies.
   
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
