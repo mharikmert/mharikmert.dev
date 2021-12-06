@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Mahmut Hilmi Arıkmert 
-title: Software Developer 
+title: Software Developer
 email: mharikmert@gmail.com
 
 # Dark Mode (true/false/never)
@@ -48,18 +48,24 @@ hackerrank_username: mharikmert
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a 4th grade Computer Science and Engineering Student at Marmara University in Turkey. I'm passionate about full-stack software development with modern tools and languages. I enjoy being challenged and engaging with projects that require me to work outside of my comfort zone and knowledge set.  Besides, I'm also a Software Developer at <a target = "_blank" href = "https://www.sadeyazilim.com"> Sade Software & Consultancy </a>
+  I'm a 4th grade Computer Science and Engineering Student at Marmara University in Turkey. I'm passionate about full-stack software development with modern tools and languages. I enjoy being challenged and engaging with projects that require me to work outside of my comfort zone and knowledge set.  Besides, I'm also a Software Engineer Intern at <a target = "_blank" href = "https://www.ambeent.ai"> Ambeent Inc.</a>
 
 content: 
   - title: Professional Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Ambeent Inc.
+        link: ambeent.ai 
+        sub_title: Software Engineer Intern
+        caption: Dec 2021 - Present 
+        quote: >
+          Ambeent Inc. empowers both end-users and operators to unleash Wi-Fi’s full potential. 
+      - layout: left
         title: Sade Software & Consultancy 
         link: sadeyazilim.com
-        # link_text: boringcompany.com
         sub_title: Software Developer  
-        caption: May 2021 - Present
+        caption: May 2021 - Dec 2021 (7 months)
         quote: >
           Providing enterprise application development, data quality and integration solutions in various sectors like finance, telecommunication, banking, public energy and insurance.
         description: |
@@ -74,7 +80,7 @@ content:
         link: civilim.com
         # link_text: boringcompany.com
         sub_title: Sofware Development Intern 
-        caption: Aug 2020 - Nov 2020 ( 4 months ) 
+        caption: Aug 2020 - Nov 2020 ( 3 months ) 
         quote: >
           Civil is one of the most known clothing companies in the babies and kids category in Turkey.
         description: | # this will include new lines to allow paragraphs
