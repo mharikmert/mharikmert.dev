@@ -62,31 +62,29 @@ content:
         quote: >
           Ambeent Inc. empowers both end-users and operators to unleash Wi-Fi’s full potential. 
       - layout: left
+
         title: Sade Software & Consultancy 
-        link: sadeyazilim.com
-        sub_title: Software Developer  
-        caption: May 2021 - Dec 2021 (7 months)
+        link: https://www.sadeyazilim.com
+
+        sub_title: Associate Software Developer  
+        caption: August 2021 - Dec 2021 
+
         quote: >
           Providing enterprise application development, data quality and integration solutions in various sectors like finance, telecommunication, banking, public energy and insurance.
         description: |
-          * Professional SAS Programming education
-          * Working on technical topics such as RESTful web services, Client-Server Architecture, Authentication(JWT), Authorization (Keycloak) during the summer internship.  
-          * Development of an API using Keycloak as the authorization layer with Spring Boot & Spring Security.
-          * Taking an active role in migrating and deploying of a static masking system's user interface (Angular) on Red Hat Linux servers.
+          * Taking an active role in migration and deployment of a static masking system's user interface (Angular).
           * Delivery of frontend tasks on a financial reporting system user interface (Angular)    
           * Designed and implemented employee activity monitoring and notification system using Kimai's API (Kotlin)
       - layout: left
-        title: Civil A.S 
-        link: civilim.com
-        # link_text: boringcompany.com
-        sub_title: Sofware Development Intern 
-        caption: Aug 2020 - Nov 2020 ( 3 months ) 
-        quote: >
-          Civil is one of the most known clothing companies in the babies and kids category in Turkey.
+
+        title: Sade Software & Consultancy 
+        link: https://www.sadeyazilim.com
+
+        sub_title: Sofware Developer Intern 
+        caption: May 2021 - August 2021 
         description: | # this will include new lines to allow paragraphs
-          * Working closely with SQL Server and Microsoft Azure technologies.
-          * Development of an API that controls the HES code via the web service of the Ministry of Health.
-          * Software development experience with Java-Spring Boot and MySQL technologies.
+          * Working on technical topics such as RESTful web services, Client-Server Architecture, Authentication(JWT), Authorization (Keycloak).  
+          * Development of an API using Keycloak as the authorization layer with Spring Boot & Spring Security.
   
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -103,45 +101,44 @@ content:
   - title: Professional Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         description: | # this will include new lines to allow paragraphs
           #### Programming Languages / Technologies 
+          <mark> JavaScript </mark> &nbsp;
+          <mark> TypeScript </mark> &nbsp;
+          <mark> Node.js </mark> &nbsp;
+          <mark> Angular </mark> &nbsp;
           <mark> Java </mark> &nbsp; 
           <mark> Spring Boot </mark> &nbsp;
           <mark> Spring Security </mark> &nbsp;
-          <mark> JPA </mark> &nbsp;
-          <mark> Hibernate </mark> &nbsp;
-          <mark> JavaScript </mark> &nbsp;
-          <mark> TypeScript </mark> &nbsp;
-          <mark> Angular </mark> &nbsp;
-          <mark> React </mark>  &nbsp;
 
           #### Data Technologies 
           <mark> MySQL </mark> &nbsp; 
           <mark> PostgreSQL </mark> &nbsp; 
-          <mark> Microsoft SQL Server </mark>   &nbsp;
+          <mark> Microsoft SQL Server </mark> &nbsp;
 
           #### Server / OS Technologies 
           <mark> Linux (Ubuntu) </mark> &nbsp;
-          <mark> Docker </mark>
+          <mark> Docker </mark> &nbsp;
           
           #### Development Tools 
-          <mark> Intellij Idea </mark> &nbsp;
-          <mark> VS Code </mark> &nbsp;
-          <mark> Vim </mark> &nbsp;
+
           <mark> Git </mark> &nbsp;
-          <mark> Github </mark>&nbsp;
-          <mark> SOAP UI </mark>&nbsp; 
+          <mark> Github </mark> &nbsp;
+          <mark> Bitbucket </mark> &nbsp;
+          <mark> Jira </mark> &nbsp;
+          <mark> Confluence </mark> &nbsp;
           <mark> PostMan </mark> &nbsp;
-          <mark> Swagger </mark>&nbsp; 
-          <mark> Trello </mark>&nbsp;  
+          <mark> Swagger </mark> &nbsp;
+          <mark> Trello </mark> &nbsp;
           
           #### Other Skills / Interests 
           <mark> Object Oriented Programming </mark> &nbsp;
+          <mark> Asyncronous Programming </mark> &nbsp;
           <mark> Design Patterns </mark> &nbsp;
           <mark> Clean Code </mark> &nbsp;
-          <mark> Software Craftsmanship </mark> &nbsp;
           <mark> Test Driven Development </mark>&nbsp; 
+          <mark> Software Craftsmanship </mark> &nbsp;
 
           
 
