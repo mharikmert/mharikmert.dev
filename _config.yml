@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Mahmut Hilmi Arıkmert 
 title: Software Developer
-email: mharikmert@gmail.com
+email: contact@mharikmert.com
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -21,7 +21,7 @@ github_username:  mharikmert
 # facebook_username: jekyll
 # flickr_username: jekyll
 instagram_username: iamhillme
-linkedin_username: mahmut-hilmi-arıkmert-3b0741187
+linkedin_username: mharikmert
 hackerrank_username: mharikmert
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -61,6 +61,11 @@ content:
         caption: Dec 2021 - Present 
         quote: >
           Ambeent Inc. empowers both end-users and operators to unleash Wi-Fi’s full potential. 
+        description: |
+          * Currently working on a cross-functional agile team to ensure the design and maintenance of the projects.
+          * Development of some part of unit tests of an application called Renault Port which is used by 500K+ users.
+          * Taking an active role in the development of backend services of an intern registration system.
+          * Designed and implemented data models and backend services for a training survey project.
       - layout: left
 
         title: Sade Software & Consultancy 
@@ -104,13 +109,15 @@ content:
       - layout: top-middle
         description: | # this will include new lines to allow paragraphs
           #### Programming Languages / Technologies 
+          <mark> Java </mark> &nbsp; 
+          <mark> Spring Boot </mark> &nbsp;
+          <mark> Spring Security </mark> &nbsp;
+          <mark> JPA </mark> &nbsp; 
+          <mark> Hibernate </mark> &nbsp; 
           <mark> JavaScript </mark> &nbsp;
           <mark> TypeScript </mark> &nbsp;
           <mark> Node.js </mark> &nbsp;
           <mark> Angular </mark> &nbsp;
-          <mark> Java </mark> &nbsp; 
-          <mark> Spring Boot </mark> &nbsp;
-          <mark> Spring Security </mark> &nbsp;
 
           #### Data Technologies 
           <mark> MySQL </mark> &nbsp; 
@@ -120,6 +127,7 @@ content:
           #### Server / OS Technologies 
           <mark> Linux (Ubuntu) </mark> &nbsp;
           <mark> Docker </mark> &nbsp;
+          <mark> Nginx </mark> &nbsp;
           
           #### Development Tools 
 
@@ -141,29 +149,16 @@ content:
           <mark> Software Craftsmanship </mark> &nbsp;
 
           
-
-
-
-        #   I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Fikirtepe Student Information System (Live Soon..) 
-        link: github.com/mharikmert/fikirtepe-student-information-system
-        # link_text: Project Website
-        # additional_links:
-        #   - title:  sproogen/modern-resume-theme
-        #     icon: fab fa-github
-        #     url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        title: Fikirtepe Student Information System
+        link: egitimportali-demo.mharikmert.com
         quote: >
           This is my first large scale app, I love to develop this project. 
         description: | # this will include new lines to allow paragraphs
-          It is an information system about students' lectures, schedules, absences, etc. Angular for frontend, Spring Boot-Spring Security for backend, MySQL-JPA-Hibernate for DB.
+          It is an information system about students' lectures, schedules, absences, etc. Stack: Spring, Angular, MySQL
           <br> <br>
           <img src="images/login_ss.png"> 
         
