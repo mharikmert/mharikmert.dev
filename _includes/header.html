@@ -1,0 +1,64 @@
+<div class="container header-contianer">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+      <h1>{{ site.name | escape }}</h1>
+      <h2>{{ site.title | escape }}</h2>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+      <ul class="icons no-print" style="text-align:center">
+        {%- if site.github_username -%}
+        <li>
+          <a target="_blank" href="https://github.com/{{ site.github_username| cgi_escape | escape }}"
+            class="button button--sacnite button--round-l">
+            <i class="fa fa-github" title="Github"></i>
+          </a>
+        </li>
+        {%- endif -%}
+        {%- if site.linkedin_username -%}
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"
+            class="button button--sacnite button--round-l">
+            <i class="fa fa-linkedin" title="Linkedin"></i>
+          </a>
+        </li>
+        {%- endif -%}
+        {%- if site.twitter_username -%}
+        <li>
+          <a target="_blank" href="https://twitter.com/{{ site.twitter_username| cgi_escape | escape }}"
+            class="button button--sacnite button--round-l">
+            <i class="fa fa-twitter" title="Twitter"></i>
+          </a>
+        </li>
+        {%- endif -%}
+        {%- if site.blog -%}
+        <li>
+          <a target="_blank" href="http://blog.mharikmert.com" class="button button--sacnite button--round-l">
+            <i class="fa fa-file-text-o" title="Personal Blog"></i>
+          </a>
+        </li>
+        {%- endif -%}
+        {%- if site.hackerrank_username -%}
+        <li>
+          <a target="_blank" href="https://hackerrank.com/{{ site.hackerrank_username| escape }}"
+            class="button button--sacnite button--round-l">
+            <i class="fab fa-hackerrank" title="HackerRank"></i>
+          </a>
+        </li>
+        {%- endif -%}
+      </ul>
+
+      {%- if site.email -%}
+      <p style="text-align:center">
+        {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email |
+          escape }}</a>
+      </p>
+      {%- endif -%}
+
+      {%- if site.resume -%}
+      <p style="text-align:center">
+        CV: <a href="{{ site.resume }}" target="_blank"> Mahmut Hilmi Arıkmert </a>
+      </p>
+      {%- endif -%}
+    </div>
+  </div>
+</div>

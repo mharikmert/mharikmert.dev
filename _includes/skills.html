@@ -1,0 +1,8 @@
+<div class="container more-container">
+    <h3>{{ site.data.skills.title | default: "Skills" }}</h3>
+    <div class="row clearfix">
+        <div class="col-md-12">
+            {{ site.data.skills.content | strip | markdownify }}
+        </div>
+    </div>
+</div>

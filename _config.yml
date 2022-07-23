@@ -1,192 +1,64 @@
 # Site
 repository: mharikmert/mharikmert.github.io
-favicon: images/favicon.ico
+favicon: /images/favicon.ico
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+remote_theme: sproogen/modern-resume-theme
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Mahmut Hilmi Arıkmert 
+name: Mahmut Hilmi Arıkmert
 title: Software Developer
 email: contact@mharikmert.com
+resume: /resume/resume.pdf
+resume_title: Curriculum Vitae
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 twitter_username: iamhillme
-github_username:  mharikmert
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: iamhillme
+github_username: mharikmert
 linkedin_username: mharikmert
 hackerrank_username: mharikmert
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
+blog: blog.mharikmert.com
 # About Section
-about_title: About Me
+about_title: About
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a 4th grade Computer Science and Engineering Student at Marmara University in Turkey. I'm passionate about full-stack software development with modern tools and languages. I enjoy being challenged and engaging with projects that require me to work outside of my comfort zone and knowledge set.  Besides, I'm also a Software Engineer Intern at <a target = "_blank" href = "https://www.ambeent.ai"> Ambeent Inc.</a>
+  A knowledge worker and a software developer interested in all the aspects of software development. 
+  Enjoys being challenged and engaging with projects that require working outside of comfort zone and knowledge set. Besides, Software Developer at <a target = "_blank" href = "https://www.renault.com.tr"> Renault Turkey. </a>
 
-content: 
-  - title: Professional Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Ambeent Inc.
-        link: ambeent.ai 
-        sub_title: Software Engineer Intern
-        caption: Dec 2021 - Present 
-        quote: >
-          Ambeent Inc. empowers both end-users and operators to unleash Wi-Fi’s full potential. 
-        description: |
-          * Currently working on a cross-functional agile team to ensure the design and maintenance of the projects.
-          * Development of some part of unit tests of an application called Renault Port which is used by 500K+ users.
-          * Taking an active role in the development of backend services of an intern registration system.
-          * Designed and implemented data models and backend services for a training survey project.
-      - layout: left
-
-        title: Sade Software & Consultancy 
-        link: https://www.sadeyazilim.com
-
-        sub_title: Associate Software Developer  
-        caption: August 2021 - Dec 2021 
-
-        quote: >
-          Providing enterprise application development, data quality and integration solutions in various sectors like finance, telecommunication, banking, public energy and insurance.
-        description: |
-          * Taking an active role in migration and deployment of a static masking system's user interface (Angular).
-          * Delivery of frontend tasks on a financial reporting system user interface (Angular)    
-          * Designed and implemented employee activity monitoring and notification system using Kimai's API (Kotlin)
-      - layout: left
-
-        title: Sade Software & Consultancy 
-        link: https://www.sadeyazilim.com
-
-        sub_title: Sofware Developer Intern 
-        caption: May 2021 - August 2021 
-        description: | # this will include new lines to allow paragraphs
-          * Working on technical topics such as RESTful web services, Client-Server Architecture, Authentication(JWT), Authorization (Keycloak).  
-          * Development of an API using Keycloak as the authorization layer with Spring Boot & Spring Security.
-  
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Marmara University
-        caption: 2017 - 2022
-        sub_title: BSc Computer Science & Engineering
-        quote: >
-          Established in 1883, Marmara is one of the oldest education institution in Turkey, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in Turkey.
-        # description: | # this will include new lines to allow paragraphs
-        #   During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-  
-  - title: Professional Skills # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        description: | # this will include new lines to allow paragraphs
-          #### Programming Languages / Technologies 
-          <mark> Java </mark> &nbsp; 
-          <mark> Spring Boot </mark> &nbsp;
-          <mark> Spring Security </mark> &nbsp;
-          <mark> JPA </mark> &nbsp; 
-          <mark> Hibernate </mark> &nbsp; 
-          <mark> JavaScript </mark> &nbsp;
-          <mark> TypeScript </mark> &nbsp;
-          <mark> Node.js </mark> &nbsp;
-          <mark> Angular </mark> &nbsp;
-
-          #### Data Technologies 
-          <mark> MySQL </mark> &nbsp; 
-          <mark> PostgreSQL </mark> &nbsp; 
-          <mark> Microsoft SQL Server </mark> &nbsp;
-
-          #### Server / OS Technologies 
-          <mark> Linux (Ubuntu) </mark> &nbsp;
-          <mark> Docker </mark> &nbsp;
-          <mark> Nginx </mark> &nbsp;
-          
-          #### Development Tools 
-
-          <mark> Git </mark> &nbsp;
-          <mark> Github </mark> &nbsp;
-          <mark> Bitbucket </mark> &nbsp;
-          <mark> Jira </mark> &nbsp;
-          <mark> Confluence </mark> &nbsp;
-          <mark> PostMan </mark> &nbsp;
-          <mark> Swagger </mark> &nbsp;
-          <mark> Trello </mark> &nbsp;
-          
-          #### Other Skills / Interests 
-          <mark> Object Oriented Programming </mark> &nbsp;
-          <mark> Asyncronous Programming </mark> &nbsp;
-          <mark> Design Patterns </mark> &nbsp;
-          <mark> Clean Code </mark> &nbsp;
-          <mark> Test Driven Development </mark>&nbsp; 
-          <mark> Software Craftsmanship </mark> &nbsp;
-
-          
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Fikirtepe Student Information System
-        link: egitimportali-demo.mharikmert.com
-        quote: >
-          This is my first large scale app, I love to develop this project. 
-        description: | # this will include new lines to allow paragraphs
-          It is an information system about students' lectures, schedules, absences, etc. Stack: Spring, Angular, MySQL
-          <br> <br>
-          <img src="images/login_ss.png"> 
-        
-      - layout: top-middle
-        title: Data Labeling System
-        link: github.com/mharikmert/data-labeling-system
-        description: 
-          It is an open source data processing and labeling project developed with Java and Maven technologies. The focus of this project is object oriented manner and design patterns. The main goal of this project is to read and process data sets which are JSON format and produce an output and user metrics similarly.    
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in software engineering some of my other interests and hobbies are:
-      - Playing Basketball and Tennis 
-      - Reading Classical Novels 
-      - Researching about Space and Universe 
-      - Math & Geometry 
+more_title: A Little More About Me
+more_content: |
+  Alongside my interests in software engineering some of my other interests and hobbies are:
+  * Playing/Watching Basketball and Tennis
+  * Reading Classical Novels
+  * Researching about Space and Universe
+  * Math & Geometry
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
+
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
+  ]
