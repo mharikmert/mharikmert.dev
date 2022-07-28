@@ -1,11 +1,11 @@
 # Projects Template
 - layout: left
-  name: <a href="http://egitimportali-demo.mharikmert.com/" target="_blank"> Education Portal </a>
+  name: <a href="https://portal-demo.mharikmert.dev/" target="_blank"> Education Portal </a>
   description: | # this will include new lines to allow paragraphs
     <p style = "text-align:center; margin:auto"> 
     An open source information management system for students. </p>
 
     <br>
-    <a href="http://egitimportali-demo.mharikmert.com/" target="_blank">
+    <a href="https://portal-demo.mharikmert.dev/" target="_blank">
       <img src="images/portal.png" alt="Portal" style="width: 100%;">
     </a>
