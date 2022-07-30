@@ -32,9 +32,9 @@
   quote: >
     Providing enterprise application development, data quality and integration solutions in various sectors like finance, telecommunication, banking, public energy and insurance.
   description: |
-    * Taking an active role in the migration and deployment of a static masking system's user interface (Angular) and proxy server(NodeJS).
-    * Delivery of frontend tasks on a financial reporting system user interface (Angular)    
-    * Designed and implemented employee activity monitoring and notification system using Kimai's API (Kotlin)
+    * Took an active role in the migration and deployment of a static masking system's user interface and proxy server.
+    * Delivered frontend tasks on a financial reporting system user interface.
+    * Designed and implemented employee activity monitoring and notification system.
 
     Technologies: <strong> Java, Kotlin, JavaScript, TypeScript, NodeJS, Angular, SAS, Linux </strong>
 
@@ -44,7 +44,7 @@
   quote: >
 
   description: |
-    * Working on technical topics such as RESTful web services, Client-Server Architecture, Authentication(JWT), Authorization (Keycloak).  
-    * Development of an API using Keycloak as the authorization layer with Spring Boot & Spring Security.
+    * Worked on technical topics such as RESTful web services, Client-Server Architecture, Authentication and Authorization.  
+    * Developed an API using Keycloak as the authorization layer with Spring Boot & Spring Security.
 
-    Technologies: <strong> Java, Spring, Keycloak </strong>
+    Technologies: <strong> Java, Spring Boot, Spring Security, Keycloak </strong>
