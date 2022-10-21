@@ -2,11 +2,9 @@ version: '3'
 
 services:
   jekyll:
-    image: jekyll/jekyll
-    container_name: ghcr.io/mharikmert/mharikmert-dot-dev/jekyll
-    command: jekyll serve --watch --force_polling --verbose
+    image: ghcr.io/mharikmert/mharikmert.dev
+    container_name: mharikmert.dev
+    build:
+      context: .
     ports:
       - 4000:4000
-      - 35729:35729
-    volumes:
-      - ./:/srv/jekyll
