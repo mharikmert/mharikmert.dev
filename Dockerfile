@@ -1,6 +1,17 @@
+FROM jekyll/jekyll as builder
 
-FROM jekyll/jekyll:3.8
+COPY . /src/jekyll
 
-EXPOSE 4000
+# jekyll docker image uses 'jekyll' as user
+# so change all permissions in the folder to jekyll
+RUN chown -R jekyll /src/jekyll
 
-CMD ["jekyll", "serve", "--watch", "--force_polling", "--verbose"]
+WORKDIR /src/jekyll
+
+RUN jekyll clean
+
+RUN jekyll build 
+
+FROM nginx:alpine
+
+COPY --from=builder /src/jekyll/_site /usr/share/nginx/html/
