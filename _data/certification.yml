@@ -1,0 +1,5 @@
+# Certification Template
+- layout: left
+  name: Certified Kubernetes Administrator
+  description: | # this will include new lines to allow paragraphs
+    <a href="https://www.credly.com/badges/df79a873-6d0c-431e-86c3-c6011617e832/public_url" target="_blank"><img src="https://images.credly.com/size/340x340/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png" style="height:180px;width:180px;"></a>

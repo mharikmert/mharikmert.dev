@@ -12,8 +12,8 @@ version: 2
 name: Mahmut Hilmi Arıkmert
 title: Software Developer
 email: contact@mharikmert.dev
-resume: /resume/resume.pdf
-resume_title: Curriculum Vitae
+# resume: /resume/resume.pdf
+# resume_title: Curriculum Vitae
 
 # Dark Mode (true/false/never)
 darkmode: false
