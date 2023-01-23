@@ -49,7 +49,7 @@
 
       {%- if site.email -%}
       <p style="text-align:center">
-        {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email |
+        {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}">{{ site.email |
           escape }}</a>
       </p>
       {%- endif -%}
