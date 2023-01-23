@@ -1,7 +1,7 @@
 # Projects Template
 - layout: left
   name: <a href="https://portal-demo.mharikmert.dev/" target="_blank"> Education Portal </a>
-  description: | # this will include new lines to allow paragraphs
+  description: |
     <p style = "text-align:center; margin:auto"> 
     An open source information management system for students. </p>
 
@@ -9,3 +9,8 @@
     <a href="https://portal-demo.mharikmert.dev/" target="_blank">
       <img src="images/portal.png" alt="Portal" style="width: 100%;">
     </a>
+
+- layout: left
+  name: <a href="https://deployments.mharikmert.dev/"> Deployments </a>
+  description: |
+    See <a href="https://deployments.mharikmert.dev/"> deployments.mharikmert.dev </a> to check out all of my open source work in production and related links.

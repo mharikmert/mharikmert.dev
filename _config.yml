@@ -12,14 +12,12 @@ version: 2
 name: Mahmut Hilmi Arıkmert
 title: Software Developer
 email: contact@mharikmert.dev
-# resume: /resume/resume.pdf
-# resume_title: Curriculum Vitae
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: iamhillme
+twitter_username: mharikmert
 github_username: mharikmert
 linkedin_username: mharikmert
 hackerrank_username: mharikmert
@@ -27,10 +25,9 @@ blog: blog.mharikmert.dev
 # About Section
 about_title: About
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  A knowledge worker and a software developer interested in all the aspects of software development. 
-  Enjoys being challenged and engaging with projects that require working outside of comfort zone and knowledge set. Besides, Software Developer at <a target = "_blank" href = "https://www.renault.com.tr"> Renault Turkey. </a>
-
+about_content: |
+  Loves to build, operate and automate things. A Firm believer in the power of knowledge, driven by a passion for all aspects of the software development lifecycle and dedicated to continuously learning and growing. 
+  Proactive problem solver, knowledge worker, and software developer in the early stage of his career.
 more_title: A Little More About Me
 more_content: |
   Alongside my interests in software engineering some of my other interests and hobbies are:

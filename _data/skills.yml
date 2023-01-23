@@ -3,17 +3,20 @@ content: | # this will include new lines to allow paragraphs
   #### Programming Languages
   <mark>Java</mark> <mark>JavaScript</mark> <mark>TypeScript</mark> 
 
-  #### Frameworks / Runtimes
-  <mark>NodeJS</mark> <mark>Jest</mark> <mark>Spring Boot</mark> <mark>Spring Security</mark> <mark>JUnit</mark> <mark>React</mark> <mark>Angular</mark>
+  #### Frameworks / Runtimes / Libraries
+  <mark>NodeJS</mark> <mark>Jest</mark> <mark>Spring Boot</mark> <mark>Spring Security</mark> <mark>JUnit</mark> <mark>React</mark> <mark>Redux</mark> <mark>MUI</mark> <mark>Angular</mark>
 
   #### Data Technologies
   <mark>PostgreSQL</mark> <mark>Microsoft SQL Server</mark> <mark>Sequelize</mark>  <mark>JPA</mark> <mark>Hibernate</mark>
 
-  #### Server / OS Technologies
-  <mark>Linux(Ubuntu)</mark> <mark>Docker</mark> <mark> Nginx </mark>
+  #### Server / OS / Infrastructure
+  <mark>Linux(Ubuntu)</mark> <mark>Docker</mark> <mark>Kubernetes</mark> <mark>Continous Integration/Deployment/Delivery</mark> <mark>GitOps</mark> <mark>Flux</mark>
+
+  #### Cloud Technologies
+  <mark>Azure DevOps</mark> <mark>Azure App Services</mark> <mark>Azure Pipelines</mark> <mark>Azure Container Registry</mark> <mark>Azure Front Door-CDN</mark> <mark>Azure Storage</mark> <mark>Azure Functions</mark> 
 
   #### Development Tools
-  <mark>Git</mark> <mark>GitHub</mark> <mark>BitBucket</mark> <mark>Jira</mark> <mark>Confluence</mark> <mark>Trello</mark> <mark>PostMan</mark> <mark>Swagger</mark>
+  <mark>Git</mark> <mark>GitHub</mark> <mark>BitBucket</mark> <mark>Jira</mark> <mark>Confluence</mark> <mark>Trello</mark> <mark>Postman</mark> <mark>Swagger</mark>
 
   #### Other Skills / Interests
   <mark>Object Oriented Programming</mark> <mark>Asynchronous Programming</mark> <mark>Test Driven Development</mark> <mark>Clean Code</mark> <mark>Software Architecture</mark>
