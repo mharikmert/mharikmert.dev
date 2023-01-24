@@ -8,6 +8,11 @@
   quote: > # this will include new lines to allow paragraphs
     Renault Turkey was established on January 10, 1968 as an OYAK Group company to offer Renault brand cars to Turkish consumers under the name of Motor Vehicles Manufacturing and Sales Inc.
   description: |
+    * Designed and implemented backend architecture, database models and 30+ backend services for the new fleet car leasing platform of Renault Turkey (<a href="https://maisfilo.com">maisfilo.com</a>) using <b>Nodejs, Express, Sequelize</b>, replacing previously manual processes using Excel files, streamlining departmental workflow.
+    * Implemented and configured <b>Azure CDN</b> caching with <b>Azure Front Door</b> on <a href="https://renault2.com"> renault2.com</a>, resulting in a reduction of loading and rendering time by approximately 80%, improving performance and user experience.
+    * Automated data collection from Oracle SOA services for over 10,000 vehicles by implementing daily/weekly cron jobs using <b>Azure Functions</b>.
+    * Implemented continuous integration/deployment pipelines for both the frontend and backend applications integrating with <b>Bitbucket, Azure Devops, Azure Container Registry, Azure App Services and Azure Storage</b>.
+    * Design and developed responsive frontend UI's featuring comprehensive business logic using <b>React, Redux, MUI</b>.
 
 - layout: left
   company: Ambeent Inc.
@@ -17,34 +22,26 @@
   quote: >
     Ambeent Inc. empowers both end-users and operators to unleash Wi-Fi’s full potential.
   description: |
-    * Worked in a cross-functional agile team providing outsourcing services for Renault Turkey. 
-    * Mainly focused on the development, maintenance and refactoring of Renault Port mobile application.
-    * Designed and implemented backend and database infrastructure of survey projects for the clients.
-    * Created user interfaces for internal backoffice system.
-
-    Technologies: <strong> JavaScript, NodeJS, Express, Sequelize, Jest, ReactJS, Material UI, PostgreSQL, Microsoft Azure, Agile </strong>
+    * Provided outsourcing services for Renault Turkey in a cross-functional agile team, delivering high-quality software solutions that met and exceeded the client's expectations.
+    * Focused mainly on the development, maintenance and refactoring of the Renault Port mobile application’s backend services and implemented comprehensive unit/integration tests using <b>Nodejs</b> and <b>Jest</b>. 
+    * Designed and implemented backend-database infrastructure and developed APIs for survey projects using <b>Nodejs</b>, <b>Express</b>, <b>Sequelize</b>.
 
 - layout: left
   company: Sade Software & Consultancy
   link: https://www.sadeyazilim.com
-  job_title: Associate Software Developer
+  job_title: Software Developer, Associate
   dates: August 2021 - December 2021
   quote: >
     Providing enterprise application development, data quality and integration solutions in various sectors like finance, telecommunication, banking, public energy and insurance.
   description: |
-    * Took an active role in the migration and deployment of a static masking system's user interface and proxy server.
-    * Delivered frontend tasks on a financial reporting system user interface.
-    * Designed and implemented employee activity monitoring and notification system.
-
-    Technologies: <strong> Java, Kotlin, JavaScript, TypeScript, NodeJS, Angular, SAS, Linux </strong>
+    * Design and implemented an employee activity monitoring and notification system using <b>Java</b>, <b>Kotlin</b> by consuming Kimai’s API. 
+    * Took an active role in the migration and deployment of a static masking system’s UI and proxy server. 
+    * Developed frontend enhancements for a financial reporting system using <b>Angular</b>, improving usability and data visualization for users.
 
 - layout: left
-  job_title: Software Developer Intern
+  job_title: Software Developer, Intern
   dates: May 2021 - August 2021
   quote: >
 
   description: |
-    * Worked on technical topics such as RESTful web services, Client-Server Architecture, Authentication and Authorization.  
-    * Developed an API using Keycloak as the authorization layer with Spring Boot & Spring Security.
-
-    Technologies: <strong> Java, Spring Boot, Spring Security, Keycloak </strong>
+    * Design and developed an API  using <b>Spring Boot </b>& <b>Spring Security </b>integrated with <b>Keycloak</b> as the authorization layer.

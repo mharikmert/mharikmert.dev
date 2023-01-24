@@ -26,8 +26,19 @@ blog: blog.mharikmert.dev
 about_title: About
 about_profile_image: images/profile.jpg
 about_content: |
-  Loves to build, operate and automate things. A Firm believer in the power of knowledge, driven by a passion for all aspects of the software development lifecycle and dedicated to continuously learning and growing. 
-  Proactive problem solver, knowledge worker, and software developer in the early stage of his career.
+  Loves to build, operate and automate things. 
+  A Firm believer in the power of knowledge, driven by a passion for all aspects of the software development lifecycle and dedicated to continuously learning and growing. 
+  Proactive problem solver, knowledge worker, and software developer in the early stage of his career. 
+  <br> <br>
+  Talks about
+  <mark>Backend Development</mark> 
+  <mark>Continous Integration/Deployment/Delivery</mark> 
+  <mark>Automation</mark>
+  <mark>Cloud</mark> 
+  <mark>Platform</mark> 
+  <mark>Containerization</mark> 
+  <mark>Compute Infrastructure</mark>
+  <mark>Kubernetes</mark>
 more_title: A Little More About Me
 more_content: |
   Alongside my interests in software engineering some of my other interests and hobbies are:
