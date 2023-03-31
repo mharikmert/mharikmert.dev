@@ -12,6 +12,6 @@ RUN jekyll clean
 
 RUN jekyll build 
 
-FROM nginx:alpine
+FROM lipanski/docker-static-website:latest
 
-COPY --from=builder /src/jekyll/_site /usr/share/nginx/html/
+COPY --from=builder /src/jekyll/_site .
