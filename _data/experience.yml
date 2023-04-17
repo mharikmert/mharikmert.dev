@@ -8,8 +8,9 @@
   quote: > # this will include new lines to allow paragraphs
     Renault Turkey was established on January 10, 1968 as an OYAK Group company to offer Renault brand cars to Turkish consumers under the name of Motor Vehicles Manufacturing and Sales Inc.
   description: |
-    * Designed and implemented backend architecture, database models and 30+ backend services for the new fleet car leasing platform of Renault Turkey (<a href="https://maisfilo.com">maisfilo.com</a>) using <b>Nodejs, Express, Sequelize</b>, replacing previously manual processes using Excel files, streamlining departmental workflow.
-    * Implemented and configured <b>Azure CDN</b> caching with <b>Azure Front Door</b> on <a href="https://renault2.com"> renault2.com</a>, resulting in a reduction of loading and rendering time by approximately 80%, improving performance and user experience.
+    * Designed and implemented the backend architecture, database models and backend services of Renault Turkey's new fleet car leasing platform (<a href="https://maisfilo.com">maisfilo.com</a>) using <b>Nodejs, Express, Sequelize, Jest</b>. 
+    The platform serves over 40 car leasing companies and replaced previously manual processes using Excel files, streamlined departmental workflow. Resulting in a 25% increase in productivity and 40% increase in total number of vehicles leased per month.
+    * Implemented and configured <b>Azure CDN</b> caching with <b>Azure Front Door</b> on <a href="https://renault2.com"> renault2.com</a>, resulting in a reduction of loading and rendering time by approximately 60%, improving performance and user experience.
     * Automated data collection from Oracle SOA services for over 10,000 vehicles by implementing daily/weekly cron jobs using <b>Azure Functions</b>.
     * Implemented continuous integration/deployment pipelines for both the frontend and backend applications integrating with <b>Bitbucket, Azure Devops, Azure Container Registry, Azure App Services and Azure Storage</b>.
     * Design and developed responsive frontend UI's featuring comprehensive business logic using <b>React, Redux, MUI</b>.
@@ -22,9 +23,10 @@
   quote: >
     Ambeent Inc. empowers both end-users and operators to unleash Wi-Fi’s full potential.
   description: |
-    * Provided outsourcing services for Renault Turkey in a cross-functional agile team, delivering high-quality software solutions that met and exceeded the client's expectations.
-    * Focused mainly on the development, maintenance and refactoring of the Renault Port mobile application’s backend services and implemented comprehensive unit/integration tests using <b>Nodejs</b> and <b>Jest</b>. 
+    * Provided outsourcing services for Renault Turkey as part of a cross functional agile team and delivered high-quality software solutions that met and exceeded the client’s expectations.
+    * Focused on the development, maintenance and refactoring of Renault Port mobile application’s backend services. Implemented unit/integration tests using Nodejs and Jest to ensure high code quality.
     * Designed and implemented backend-database infrastructure and developed APIs for survey projects using <b>Nodejs</b>, <b>Express</b>, <b>Sequelize</b>.
+    * Developed user interfaces for the internal back office system using React, Redux.
 
 - layout: left
   company: Sade Software & Consultancy
