@@ -14,7 +14,7 @@
     *   Automated data collection from Oracle SOA services for over 10,000 vehicles by implementing daily/weekly cron jobs in Azure Functions.
     *   Implemented continuous integration/deployment pipelines for both the frontend and backend applications integrating with Bitbucket, 
     Azure Devops, Azure Container Registry, Azure App Services and Azure Storage.
-    *   Design and developed responsive frontend UI featuring comprehensive business logic using React, Redux, MUI.
+    *   Designed and developed responsive frontend UI featuring comprehensive business logic using React, Redux, MUI.
 
 - layout: left
   company: Ambeent Inc.
@@ -37,7 +37,7 @@
   quote: >
     Providing enterprise application development, data quality and integration solutions in various sectors like finance, telecommunication, banking, public energy and insurance.
   description: |
-    * Design and implemented an employee activity monitoring and notification system using <b>Java</b>, <b>Kotlin</b> by consuming Kimai’s API. 
+    * Designed and implemented an employee activity monitoring and notification system using <b>Java</b>, <b>Kotlin</b> by consuming Kimai’s API. 
     * Took an active role in the migration and deployment of a static masking system’s UI and proxy server. 
     * Developed frontend enhancements for a financial reporting system using <b>Angular</b>, improving usability and data visualization for users.
 
@@ -47,4 +47,4 @@
   quote: >
 
   description: |
-    * Design and developed an API  using <b>Spring Boot </b>& <b>Spring Security </b>integrated with <b>Keycloak</b> as the authorization layer.
+    * Designed and developed an API  using <b>Spring Boot </b>& <b>Spring Security </b>integrated with <b>Keycloak</b> as the authorization layer.
